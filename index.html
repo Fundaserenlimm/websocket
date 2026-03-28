@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funda Serenlim - Kişisel Web Sayfası</title>
+    <style>
+        /* Basit ve Modern bir görünüm için temel CSS */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f4f4; }
+        header { background: #2c3e50; color: #fff; padding: 20px; text-align: center; border-radius: 8px; margin-bottom: 20px; }
+        header h1 { margin: 0; }
+        header p { margin: 5px 0 0; font-size: 1.1em; }
+        .contact-info { margin-top: 10px; font-size: 0.9em; }
+        .contact-info a { color: #fff; text-decoration: none; margin: 0 10px; }
+        .contact-info a:hover { text-decoration: underline; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 5px; margin-top: 30px; }
+        .section { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        .job, .project, .education { margin-bottom: 15px; }
+        .job-title, .project-title, .edu-title { font-weight: bold; color: #e67e22; }
+        .date { font-style: italic; color: #7f8c8d; float: right; }
+        .skills-list { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; }
+        .skills-list li { background: #34495e; color: #fff; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; }
+        footer { text-align: center; margin-top: 40px; font-size: 0.8em; color: #7f8c8d; }
+        
+        /* Mobil uyumluluk için küçük ayar */
+        @media (max-width: 600px) {
+            .date { float: none; display: block; margin-top: 5px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>FUNDA SERENLİM</h1>
+    <p>Bilgisayar Mühendisliği Öğrencisi</p>
+    <img src="fotograf.jpeg" alt="Funda Serenlim" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; margin-top: 15px;">
+    <div class="contact-info">
+        <a href="mailto:fundaserenlim@gmail.com">fundaserenlim@gmail.com</a> | 
+        <span>+90 507 627 52 67</span> | 
+        <span>İzmir, Türkiye</span><br>
+        <a href="https://www.linkedin.com/in/fundaserenlim" target="_blank">LinkedIn</a> | 
+        <a href="https://github.com/fundaserenlimm" target="_blank">Github</a>
+    </div>
+</header>
+
+<div class="section">
+    <h2>Hakkımda</h2>
+    <p>
+        Kahramanmaraş Sütçü İmam Üniversitesi Bilgisayar Mühendisliği bölümü 4. sınıf öğrencisiyim. 
+        Yapay Zeka (özellikle Derin Öğrenme, NLP, Bilgisayarlı Görü), IoT ve Siber Güvenlik konularına 
+        büyük ilgi duyuyorum. Erasmus deneyimimle global bir bakış açısı kazandım ve akademik 
+        çalışmalarımı makaleleştirerek literatüre katkı sağlamayı hedefliyorum.
+    </p>
+</div>
+
+<div class="section">
+    <h2>Eğitim</h2>
+    <div class="education">
+        <span class="edu-title">Erasmus+ Öğrenim Hareketliliği</span>
+        <span class="date">2024 - 2025 (6 ay)</span>
+        <p>Technical University of Applied Sciences Augsburg / Almanya<br>
+        <em>Alınan Dersler: Applied Artificial Intelligence, Data Analytics, IT Sourcing and Cloud Transformation, Deutsch A.1.1</em></p>
+    </div>
+    <div class="education">
+        <span class="edu-title">Lisans - Bilgisayar Mühendisliği</span>
+        <span class="date">2021 - Devam</span>
+        <p>Kahramanmaraş Sütçü İmam Üniversitesi<br>
+        GPA: 3.14/4.00 (İngilizce Hazırlık: 69.20/100)</p>
+    </div>
+    <div class="education">
+        <span class="edu-title">Lise</span>
+        <span class="date">2015 - 2019</span>
+        <p>İzmir Selma Yiğitalp Anadolu Lisesi<br>
+        GPA: 84.76/100</p>
+    </div>
+</div>
+
+<div class="section">
+    <h2>İş Deneyimi</h2>
+    <div class="job">
+        <span class="job-title">Stajyer | Sekom İletişim Sistemleri A.Ş</span>
+        <span class="date">07.2024 - 09.2024</span>
+        <p>Ankara, Türkiye<br>
+        Java, SQL, Docker ve Git kullanarak backend ve veritabanı entegrasyonuna odaklanan bir Kütüphane Otomasyon Sistemi geliştirdim. Yazılım geliştirme süreçleri ve kodlama pratiklerinde deneyim kazandım.</p>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Projeler</h2>
+    <div class="project">
+        <span class="project-title">Çok Modlu Duygusal Gölge Analizi ve Risk Skorlama</span>
+        <span class="date">2026 (Planlanan)</span>
+        <p>DeBERTa ve Swin tabanlı multimodal (metin-görüntü) model kullanarak sosyal medya caps içeriklerinde nefret söylemi risk skorlaması yapan bir sistem geliştirdim ve akademik makale hazırladım.</p>
+    </div>
+    <div class="project">
+        <span class="project-title">Lisans Tezi - SDN'de Zero-Day Saldırı Tespiti</span>
+        <span class="date">2025 - 2026</span>
+        <p>Mininet, ONOS ve Open vSwitch kullanarak SDN test ortamı kurdum, Wireshark ile etiketli trafik veri seti oluşturdum ve LSTM/GRU modelleriyle %99,4 doğrulukla zero-day saldırı tespiti gerçekleştirdim.</p>
+    </div>
+    <div class="project">
+        <span class="project-title">Akıllı Sürücü Güvenlik Sistemi (IoT-AI)</span>
+        <span class="date">2025</span>
+        <p>Kamera tabanlı uyku hali tespiti (EAR) ve Arduino sensörleri (alkol, nabız, sıcaklık/nem) ile çalışan, gerçek zamanlı uyarı ve dinamik hız kontrolü sağlayan bir sistem geliştirdim.</p>
+    </div>
+    <div class="project">
+        <span class="project-title">AI ile Kumaş Hata Tespiti</span>
+        <span class="date">2024 - 2026</span>
+        <p>VGG16, Inception V3 ve hibrit (ViT+LSTM) mimarilerini karşılaştırarak yüksek performanslı (%96.31) bir derin öğrenme modeli geliştirdim. Çalışma Gazi Üniversitesi dergisinde değerlendirme aşamasındadır.</p>
+    </div>
+     <div class="project">
+        <span class="project-title">ASP.NET & Kubernetes Deployment Automation</span>
+        <p>ASP.NET tabanlı uygulamalar için Azure DevOps kullanarak uçtan uca CI/CD süreçlerini tasarladım; birim testlerinin otomatize edilmesi ve Dockerize edilmiş imajların Kubernetes ortamına dağıtımı süreçlerini yönettim.</p>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Yetenekler & Dijital Beceriler</h2>
+    <h3>Programlama Dilleri</h3>
+    <ul class="skills-list">
+        <li>Python</li>
+        <li>Java</li>
+        <li>SQL</li>
+        <li>ASP.NET</li>
+    </ul>
+    
+    <h3>Araçlar & Teknolojiler</h3>
+    <ul class="skills-list">
+        <li>Docker / Docker Hub</li>
+        <li>Kubernetes</li>
+        <li>Git Version Control</li>
+        <li>Azure DevOps</li>
+        <li>PostgreSQL</li>
+        <li>Postman</li>
+        <li>Linux</li>
+        <li>Mininet / ONOS / Open vSwitch</li>
+        <li>Wireshark</li>
+        <li>Termius</li>
+        <li>New Relic</li>
+    </ul>
+
+    <h3>Uzmanlık Alanları</h3>
+    <ul class="skills-list">
+        <li>Machine Learning</li>
+        <li>Deep Learning</li>
+        <li>NLP (Doğal Dil İşleme)</li>
+        <li>Bilgisayarlı Görü</li>
+        <li>IoT</li>
+        <li>Siber Güvenlik (SDN, Saldırı Tespiti)</li>
+        <li>CI/CD Otomasyonu</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Yabancı Diller</h2>
+    <p><strong>İngilizce:</strong> B2 (Upper-Intermediate)</p>
+    <p><strong>Almanca:</strong> A1 (Elementary)</p>
+</div>
+
+<div class="section">
+    <h2>Gönüllülük & Aktiviteler</h2>
+    <p>Yönetim Kurulu Üyesi, Bilgisayar ve Bilişim Topluluğu (2022-2024)</p>
+    <p>Yönetim Ekibi Üyesi, Yapay Zeka Topluluğu (2025-Devam ediyor)</p>
+    <p>Gençlik ve Spor Bakanlığı Gönüllü Destek Görevlisi, (2025-Devam Ediyor)</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Funda Serenlim. Tüm Hakları Saklıdır.</p>
+</footer>
+
+</body>
+</html>
