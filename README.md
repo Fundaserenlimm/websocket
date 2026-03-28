@@ -29,6 +29,3 @@ http://127.0.0.1:8080
 Bu sunucu şu an için sadece GET isteklerini desteklemektedir ve eğitim amaçlıdır. Gerçek dünya uygulamaları için gunicorn veya uvicorn gibi üretim seviyesi sunucuların kullanılması önerilir.
 
 http://127.0.0.1:8080
-
-📝 Notlar
-Bu sunucu şu an için sadece GET isteklerini desteklemektedir ve eğitim amaçlıdır. Gerçek dünya uygulamaları için gunicorn veya uvicorn gibi üretim seviyesi sunucuların kullanılması önerilir.
