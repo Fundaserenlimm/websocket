@@ -1,4 +1,4 @@
-# 🐍 Simple Python Web Server (Socket)
+#  Simple Python Web Server (Socket)
 Bu proje, Python'ın düşük seviyeli socket kütüphanesini kullanarak sıfırdan oluşturulmuş basit bir HTTP/Web Sunucusudur. Herhangi bir dış framework (Flask, Django vb.) kullanmadan HTTP protokolünün nasıl çalıştığını anlamak amacıyla geliştirilmiştir.
 
 # 🚀 Özellikler
